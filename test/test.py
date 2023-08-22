@@ -10,7 +10,7 @@ unique_numbers = set(numbers)
 print(sum(unique_numbers))
 
 # 3. Створити словник де є поле зарплата. Перевизначити значення цього поля, щоб воно дорівнювало 1.5 від початкової зарплати.
-dict = {"salary": 0}
+dict = {"salary": 5500}
 # print(dict)
-dict["salary"] = 1.5
+dict["salary"] *= 1.5
 print(dict)
